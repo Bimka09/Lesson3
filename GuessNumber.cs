@@ -7,11 +7,9 @@ namespace GuessNumber
     {
         private readonly int _number;
         private readonly IDeterminant _determinant;
-        private readonly IRandomize _randomizer;
 
         public GuessNumber(IDeterminant determinant, IRandomize randomizer)
         {
-            _randomizer = randomizer;
             _number = randomizer.RandomNumber();
             _determinant = determinant;
         }

@@ -1,6 +1,8 @@
-﻿namespace GuessNumber.Abstracts
+﻿using GuessNumber.Interfaces;
+
+namespace GuessNumber.Abstracts
 {
-    abstract class RandomizerBase
+    abstract class RandomizerBase: IRandomize
     {
         abstract public int RandomNumber();
     }

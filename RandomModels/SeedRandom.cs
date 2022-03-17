@@ -4,7 +4,7 @@ using System;
 
 namespace GuessNumber.RandomModels
 {
-    class SeedRandom : RandomizerBase, IRandomize
+    class SeedRandom : RandomizerBase
     {
 
 

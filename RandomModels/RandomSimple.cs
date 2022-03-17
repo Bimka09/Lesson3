@@ -4,7 +4,7 @@ using System;
 
 namespace GuessNumber.RandomModels
 {
-    class RandomSimple : RandomizerBase, IRandomize
+    class RandomSimple : RandomizerBase
     {
         public override int RandomNumber()
         {

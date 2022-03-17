@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 
 namespace GuessNumber.RandomModels
 {
-    class CryptoRandom : RandomizerBase, IRandomize
+    class CryptoRandom : RandomizerBase
     {
         public override int RandomNumber()
         {
